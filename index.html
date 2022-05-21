@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cell Info</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <link rel="icon" href="images/icon2.png">
+</head>
+<body>
+<!-- search section start -->
+<section class="searchsection" id="searchsection">
+    <div class="closebtn" onclick="closesearchsection()"></div>
+    <div class="searchbox">
+        <input type="text" placeholder="search here..." id="txtsearch">
+    </div>
+    <button onclick="searchProduct()">search</button>
+</section>
+<!-- search section  end-->
+<!-- header section start -->
+    <header id="home">
+        <div class="main">
+                <!-- <img src="images/logo.png" alt=""> -->
+            <img src="images/mainlogo2.png" alt="mainlogo.png">
+            <a href="index.html"><h1>Cell<span>Info</span></h1></a>
+        </div>
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="#about">about us</a></li>
+            <li class="brandsdropmenu"><a href="index.html">brands</a>
+                <ul class="brandsdropdown">
+                    <li><a href="apple.html">apple</a></li>
+                    <li><a href="samsung.html">samsung</a></li>
+                    <li><a href="oneplus.html">oneplus</a></li>
+                    <li><a href="oppo.html">oppo</a></li>
+                </ul>
+            </li>
+            <li><a href="comparision_page.html">comparison</a></li>
+            <li><a href="contact_us.html">contact us</a></li>
+        </ul>
+        <div class="userinfo">
+            <div class="searchicon" onclick="showsearchsection()">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+            <div class="login">
+                <i class="fa fa-user" aria-hidden="true"></i>
+            </div>
+            <div class="addtocart">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            </div>
+        </div>
+    </header>
+<!-- header section end -->
+<!-- banner section start -->
+<section class="banner">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+              <div class="swiper-slide slide1">
+                  <div class="content">
+                      <p>Smart collection</p>
+                      <h2>latest foldable smartphones</h2>
+                      <a href="samsung.html"><button>learn more</button></a>
+                    </div>
+                </div>
+              <div class="swiper-slide slide2">
+                  <div class="content">
+                      <p>Smart collection</p>
+                      <h2>latest inovative design smartphones</h2>
+                      <a href="apple.html"><button>learn more</button></a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide3">
+                    <div class="content">
+                        <p>Smart collection</p>
+                        <h2>latest camera smartphones</h2>
+                        <a href="oneplus.html"></a><button>learn more</button></a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide4">
+                    <div class="content">
+                        <p>Smart collection</p>
+                        <h2>latest oppo phones</h2>
+                        <a href="oppo.html"></a><button>learn more</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner section end -->
+<!-- about us section start -->
+<section class="aboutus" id="about">
+    <div class="leftside">
+        <h2>about us</h2>
+        <p>ASKME Ltd. Is a Multi National Company providing Information services to General
+                People they have been providing information to people through Telephone calls
+                which could include anything from Pin to Piano. Their major source of income comes
+                from informing the customers about those products first for which ASKME is getting
+                paid for.
+        </p>
+        <button>see more</button>
+    </div>
+    <div class="rightside"></div>
+</section>
+<!-- about us section end -->
+<!-- carousel section start -->
+<section class="carosel">
+    <div class="mobilecarosel">
+        <div class="owl-carousel owl-theme">
+            <div class="box">
+                <img src="images/boximage3.jpg" alt="">
+                <h2>S22 ultra</h2>
+            </div>
+            <div class="box">
+                <img src="images/boximage2.jpg" alt="">
+                <h2>S21 ultra</h2>
+            </div>
+            <div class="box">
+                <img src="images/iphonepic1.jpg" alt="">
+                <h2>iphone 13 pro</h2>
+            </div>
+            <div class="box">
+                <img src="images/iphonepic2.jpg" alt="">
+                <h2>iphone 13</h2>
+            </div>
+            <div class="box">
+                <img src="images/boximage4.jpg" alt="">
+                <h2>oneplus nord</h2>
+            </div>
+            <div class="box">
+                <img src="images/boximage5.jpg" alt="">
+                <h2>oneplus 9</h2>
+            </div>
+            <div class="box">
+                <img src="images/boximage8.jpg" alt="">
+                <h2>oppo find x5 pro</h2>
+            </div>
+            <div class="box">
+                <img src="images/boximage9.jpg" alt="">
+                <h2>oppo f21 pro</h2>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- carousel section end -->
+<!-- iphone image section start -->
+<section class="iphoneimage">
+    <div class="icontent">
+        <h3>iphone 13 pro</h3>
+        <h1>latest smartphone collections</h1>
+        <a href="product_detail_i13pro.html"><button>BUY NOW</button></a>
+    </div>
+</section>
+<!-- iphone image section end -->
+<!-- new product section start -->
+<section class="products">
+    <h2>new products</h2>
+    <div class="newproducts">
+        <div class="productcard"> 
+            <div class="img"></div>
+            <div class="Productcontent">
+                <h3>smasung S21 ultra 128gb</h3>
+                <h4>$999.9</h4>
+                <a href="samsung.html"><button>BUY NOW</button></a>
+            </div>
+        </div>
+        <div class="productcard">
+            <div class="img"></div>
+            <div class="Productcontent">
+                <h3>iphone 13pro max 128gb</h3>
+                <h4>$1099.9</h4>
+                <a href="apple.html"><button>BUY NOW</button></a>
+            </div>
+        </div>
+        <div class="productcard">
+            <div class="img"></div>
+            <div class="Productcontent">
+                <h3>oneplus 10pro 128gb</h3>
+                <h4>$899</h4>
+                <a href="oneplus.html"><button>BUY NOW</button></a>
+            </div>
+        </div>
+        <div class="productcard">
+            <div class="img"></div>
+            <div class="Productcontent">
+                <h3>oppo reno7 pro 128gb</h3>
+                <h4>$645</h4>
+                <a href="oppo.html"><button>BUY NOW</button></a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- new product section end -->
+<!-- mobile section start -->
+<section class="mobile">
+    <div class="mleftside">
+        <div class="mleftsidecontent">
+            <h3>find the best smartphone for you</h3>
+            <h2>new slim smartphone</h2>
+            <button>show more</button>
+        </div>
+    </div>
+        <div class="mrightside">
+            <div class="mrightsidecontent">
+                <h3>new smartphone 128MP camera</h3>
+                <h2>latest smartphone</h2>
+                <button>show more</button>
+            </div>
+        </div>
+</section>
+<!-- mobile section end -->
+<!-- speacial products section start -->
+<section class="specialproducts">
+    <h2>special products</h2>
+    <div class="spproductcards">
+        <div class="spproductcard">
+            <div class="spimg">
+                <img src="images/sppoduct1.jpg" alt="sppoduct1.jpg">
+            </div>
+            <div class="spcontent">
+                <h3>samsung galaxy A32 128gb 5G</h3>
+                <p>released on december 2021</p>
+                <div class="prices">
+                    <h4>$300</h4>
+                    <h3>$279.0</h3>
+                </div>
+            </div>
+        </div>
+        <div class="spproductcard">
+            <div class="spimg">
+                <img src="images/spproduct2.jpg" alt="spproduct2.jpg">
+            </div>
+            <div class="spcontent">
+                <h3>iphone 11 promax 128gb </h3>
+                <p>released on september 2019</p>
+                <div class="prices">
+                    <h4>$1000</h4>
+                    <h3>$900</h3>
+                </div>
+            </div>
+        </div>
+        <div class="spproductcard">
+            <div class="spimg">
+                <img src="images/spproduct3.jpg" alt="spproduct3.jpg">
+            </div>
+            <div class="spcontent">
+                <h3>oneplus 8 pro 128gb 5G</h3>
+                <p>released on april 2021</p>
+                <div class="prices">
+                    <h4>$960</h4>
+                    <h3>$850</h3>
+                </div>
+            </div>
+        </div>
+        <div class="spproductcard">
+            <div class="spimg">
+                <img src="images/spproduct4.jpg" alt="spproduct4.jpg">
+            </div>
+            <div class="spcontent">
+                <h3>oppo f11 pro 128gb </h3>
+                <p>released on august 2019</p>
+                <div class="prices">
+                    <h4>$270</h4>
+                    <h3>$150</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- speacial products section end -->
+<section class="subscribe">
+    <div class="newsletter">
+        <img src="images/arrow.png" alt="images/arrow.png">
+        <h2>join our newsletter</h2>
+        <p>subscribe for latest updates and promotions</p>
+    </div>
+    <div class="subscribebutton">
+        <input type="email" placeholder="Your Email Address..." required>
+        <button>subscribe</button>
+    </div>
+</section>
+<!-- subscribe section start -->
+<!-- footer section start -->
+<footer>
+    <div class="companyinfo">
+        <div class="aboutcompany">
+            <h2>about us</h2>
+            <p>ASKME Ltd. Is a Multi National Company providing Information services to General
+                People they have been providing information to people through Telephone calls.
+            </p>
+            <div class="follow">
+                <h2>follow us</h2>
+                <div class="icons">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt=""></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.png" alt=""></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin.png" alt=""></a>
+                    <a href="https://www.twitter.com/" target="_blank"><img src="images/twitter.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <h2>Profile Links</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#home">brands</a></li>
+                <li><a href="comparision_page.html">comparison</a></li>
+                <li><a href="contact_us.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="box">
+            <h2>contact us</h2>
+            <ul>
+                <li><a href="mailto:webmaster@cellinfo.com">webmaster@cellinfo.com</a></li>
+                <li><a href="">+001-28272300-2466</a></li>
+                <li><a href="">A-65, ACME Co., Street no 12, New York</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<section class="bottombar">
+    <h3>copyright &copy  2022. M.Ahsan. all rights reserved</h3>
+</section>
+<!-- footer section end -->
+<!-- java script start -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    swiper
+    var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        autoplay:true,
+        delay:2000,
+        loop:true,
+    });
+    //owl carousel
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+    autoplay:true,
+    delay:2000,
+    margin:10,
+    nav:false,
+    pagination:false,
+    dots:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+});
+
+ // search script start -->
+function showsearchsection()
+{
+    document.getElementById("searchsection").classList.add("show");
+
+}
+function closesearchsection()
+{
+    document.getElementById("searchsection").classList.remove("show");
+    document.getElementById("txtsearch").value="";
+}    
+</script>
+<script>
+    function searchProduct()
+    {
+        var search = document.getElementById("txtsearch").value;
+        if(search=="apple" || search=="APPLE" || search=="Apple")
+        {
+            window.location.href = "apple.html"
+            document.getElementById("txtsearch").value = "";
+        }
+        else if(search=="samsung" || search=="SAMSUNG" || search=="Samsung")
+        {
+            window.location.href = "samsung.html"
+            document.getElementById("txtsearch").value = "";
+        }
+        else if(search=="oppo" || search=="OPPO" || search=="Oppo")
+        {
+            window.location.href = "oppo.html"
+            document.getElementById("txtsearch").value = "";
+        }
+        else if(search=="oneplus" || search=="ONEPLUS" || search=="Oneplus")
+        {
+            window.location.href = "oneplus.html"
+            document.getElementById("txtsearch").value = "";
+        }
+        else if(search=="iphone 13 pro max" || search=="IPHONE 13 PRO MAX" || search=="Iphone 13 Pro Max")
+        {
+            window.location.href = "product_detail_i13pro.html"
+            document.getElementById("txtsearch").value = "";
+        }
+        else if(search=="samsung s22 ultra" || search=="SAMSUNG S22 ULTRA" || search=="Samsung S22 Ultra")
+        {
+            window.location.href = "product_detail_s22ultra.html"
+            document.getElementById("txtsearch").value = "";
+        }
+        else if(search=="oppo find x5 pro" || search=="OPPO FIND X5 PRO" || search=="Oppo Find X5 Pro")
+        {
+            window.location.href = "product_detail_findx5.html"
+            document.getElementById("txtsearch").value = "";
+        }
+        else if(search=="oneplus 10 pro" || search=="ONEPLUS 10 PRO" || search=="Oneplus 10 Pro")
+        {
+            window.location.href = "product_detail_oneplus10pro.html"
+            document.getElementById("txtsearch").value = "";
+        }
+        else
+        {
+            alert("No Result Found..")
+            document.getElementById("txtsearch").value = "";
+            
+        }
+    }
+</script>
+<!-- // search script end -->
+<!-- java script end -->
+</body>
+</html>
